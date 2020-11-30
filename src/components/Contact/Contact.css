@@ -1,0 +1,13 @@
+.contact{
+  width: 95%;
+  margin: 0 auto
+}
+
+.contact .me, .contact .availability{
+  color: green;
+  font-weight: normal;
+}
+
+.contact span, .about span{
+  font-weight: bold;
+}

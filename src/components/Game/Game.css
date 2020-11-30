@@ -1,0 +1,12 @@
+.game{
+  width: 100%;
+  margin: 10px auto;
+}
+
+.play-again{
+  margin-left: 5px;
+}
+
+.start-playing{
+  margin-bottom: 10px;
+}

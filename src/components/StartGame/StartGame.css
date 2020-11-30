@@ -1,0 +1,12 @@
+.start{
+  display: inline-block;
+  width: 55%;  
+}
+
+.start select{
+  margin-left: 2%;
+}
+
+.start span{
+  cursor: default;
+}

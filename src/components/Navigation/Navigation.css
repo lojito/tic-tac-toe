@@ -1,0 +1,119 @@
+nav{ 
+  display:inline-block;
+  width: 70%;  
+}
+
+nav ul{
+  list-style: none;
+  padding-left: 0;
+}
+
+nav li{
+  display: inline-block;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+nav a.active{
+  font-weight: 1000;
+}
+
+a{
+  color: green;
+  text-decoration: none;  
+}
+
+nav li a:hover{
+  color: #19A57E
+}
+
+input#menu{
+  display: none;
+}
+
+label.mylabel{
+  display: none;
+  cursor: pointer;
+} 
+
+#burger-container{
+  position: relative;
+  width: 100%;
+}
+
+#burger{
+  display: block;
+}
+
+#burger span{
+  background: green;
+  display: block;
+  left: 80%;
+  width: 30px;
+  height: 3px;
+  margin-bottom: 6px;
+  position: relative;
+  top: 0;
+  transition: all ease-in-out 0.4s;
+}
+
+@media screen and (max-width: 400px) {
+  nav{
+    width: 60%;
+  }
+
+  nav li{
+    display: block;
+  }
+
+  nav a{
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    background-color: #8fbc8f;
+  }
+
+  ul.nav{
+    margin: 0;
+    display: block;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    text-align: left;
+  }
+
+  label.mylabel{
+    display: inline-block;
+    width: 100%;
+    cursor: default;
+  }
+  
+  input#menu:checked ~ ul{
+    max-height: 160px;
+    transition: all ease 1s;
+  }
+  
+  input#menu:checked + label > #burger-container span:nth-child(2){
+    width: 0;
+    opacity: 0;
+  }
+  
+  input#menu:checked + label > #burger-container span:nth-child(3){
+    transform: rotate(45deg);
+    top: -9px;
+  }
+  
+  input#menu:checked + label > #burger-container span:nth-child(1){
+    transform: rotate(-45deg);
+    top: 9px;
+  }
+
+  input#menu ~ ul a.active{
+    position: absolute;
+    top: 5px;
+  }
+  input#menu:checked ~ ul a.active{
+    position: relative;
+    top: 0px;
+  }    
+}

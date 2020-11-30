@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StartGame component renders the StartGame component correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="start"
+    data-testid="startgame"
+  >
+    <span
+      title="Who starts playing the game: You or the computer?"
+    >
+      You Start?
+    </span>
+    <select
+      data-testid="select"
+    >
+      <option
+        data-testid="select-option"
+        value="2"
+      >
+        Yes
+      </option>
+      <option
+        data-testid="select-option"
+        value="1"
+      >
+        No
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;

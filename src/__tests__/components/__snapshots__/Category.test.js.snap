@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Category component renders the Category component correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="categories"
+    data-testid="categories"
+  >
+    <span
+      data-testid="description"
+    >
+      Category: 
+    </span>
+    <select
+      data-testid="select"
+    >
+      <option
+        data-testid="select-option"
+        value="0"
+      >
+        Havana landmarks
+      </option>
+      <option
+        data-testid="select-option"
+        value="1"
+      >
+        Montreal landmarks
+      </option>
+      <option
+        data-testid="select-option"
+        value="2"
+      >
+        Vancouver landmarks
+      </option>
+      <option
+        data-testid="select-option"
+        value="3"
+      >
+        Spain landmarks
+      </option>
+      <option
+        data-testid="select-option"
+        value="4"
+      >
+        Germany landmarks
+      </option>
+      <option
+        data-testid="select-option"
+        value="5"
+      >
+        Soccer players
+      </option>
+      <option
+        data-testid="select-option"
+        value="6"
+      >
+        Fruits & Vegetables
+      </option>
+      <option
+        data-testid="select-option"
+        value="7"
+      >
+        Animals
+      </option>
+      <option
+        data-testid="select-option"
+        value="8"
+      >
+        Puppies
+      </option>
+      <option
+        data-testid="select-option"
+        value="9"
+      >
+        Seinfeld
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;

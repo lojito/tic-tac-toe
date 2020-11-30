@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact component renders the Contact component correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="contact"
+    data-testid="contact"
+  >
+    <p>
+      <span
+        data-testid="authorDescription"
+      >
+        Author: 
+      </span>
+      <span
+        class="me"
+        data-testid="author"
+      >
+        Livan Ojito Villanueva
+      </span>
+    </p>
+    <p>
+      <span
+        data-testid="emailDescription"
+      >
+        E-mail: 
+      </span>
+      <span
+        class="me"
+        data-testid="email"
+      >
+        livanojito@gmail.com
+      </span>
+    </p>
+    <p>
+      <span
+        data-testid="githubDescription"
+      >
+        Github: 
+      </span>
+      <a
+        data-testid="github"
+        href="https://github.com/lojito"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        https://github.com/lojito
+      </a>
+    </p>
+    <p>
+      <span
+        data-testid="linkedinDescription"
+      >
+        LinkedIn: 
+      </span>
+      <a
+        data-testid="linkedin"
+        href="https://ca.linkedin.com/in/lov"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        https://ca.linkedin.com/in/lov
+      </a>
+    </p>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation component renders the Navigation component correctly 1`] = `
+<DocumentFragment>
+  <nav>
+    <input
+      id="menu"
+      type="checkbox"
+    />
+    <label
+      class="mylabel"
+      for="menu"
+    >
+      <div
+        id="burger-container"
+      >
+        <div
+          id="burger"
+        >
+          <span>
+             
+          </span>
+          <span>
+             
+          </span>
+          <span>
+             
+          </span>
+        </div>
+      </div>
+    </label>
+    <ul
+      class="nav"
+      data-testid="nav"
+    >
+      <li>
+        <a
+          aria-current="page"
+          class="active"
+          data-testid="game"
+          href="/"
+        >
+          Game      
+        </a>
+      </li>
+      <li>
+        <a
+          data-testid="history"
+          href="/history"
+        >
+          Historical   
+        </a>
+      </li>
+      <li>
+        <a
+          data-testid="repository"
+          href="/repository"
+        >
+          Repository
+        </a>
+      </li>
+      <li>
+        <a
+          data-testid="about"
+          href="/about"
+        >
+          About     
+        </a>
+      </li>
+      <li>
+        <a
+          data-testid="contact"
+          href="/contact"
+        >
+          Contact   
+        </a>
+      </li>
+    </ul>
+  </nav>
+</DocumentFragment>
+`;

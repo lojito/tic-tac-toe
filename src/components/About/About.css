@@ -1,0 +1,12 @@
+.about{
+  width: 95%;
+  margin: 10px auto 0;
+}
+
+.about ul{
+  margin-top: 0;
+}
+
+.about li {
+  margin-top: 5px;
+}

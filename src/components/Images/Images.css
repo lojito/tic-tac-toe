@@ -1,0 +1,38 @@
+.images{
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.image-token{
+  width: 120px;
+  height: 120px;
+  vertical-align: middle;
+}
+
+.user-image, .computer-image{
+  display: inline-block;
+}
+
+.user-image{
+  width: 40%;
+}
+
+.computer-image{
+  width: 60%;
+} 
+
+.refresh{
+  width: 30px;
+  height: 30px;  
+  margin-left: 5px;
+  position: relative;
+  top: 12px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+  .image-token{
+    width: 40px;
+    height: 40px;
+  }  
+}

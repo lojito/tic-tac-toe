@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component renders the Header component correctly 1`] = `
+<DocumentFragment>
+  <header>
+    <div
+      class="flags"
+      data-testid="flags"
+    >
+      <img
+        alt="English"
+        data-testid="english"
+        src="https://firebasestorage.googleapis.com/v0/b/puzzle-ebd10.appspot.com/o/images%2Fflags%2Fusa.jpg?alt=media"
+        title="English"
+      />
+      <img
+        alt="French"
+        data-testid="french"
+        src="https://firebasestorage.googleapis.com/v0/b/puzzle-ebd10.appspot.com/o/images%2Fflags%2Ffrance.jpg?alt=media"
+        title="French"
+      />
+      <img
+        alt="Spanish"
+        data-testid="spanish"
+        src="https://firebasestorage.googleapis.com/v0/b/puzzle-ebd10.appspot.com/o/images%2Fflags%2Fspain.jpg?alt=media"
+        title="Spanish"
+      />
+    </div>
+  </header>
+</DocumentFragment>
+`;

@@ -1,0 +1,205 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About component renders the About component correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="about"
+    data-testid="about"
+  >
+    <div>
+      <span
+        data-testid="gameWrittenWith"
+      >
+        This game has been developed with:
+      </span>
+      <ul
+        data-testid="techStack"
+      >
+        <li>
+          <a
+            href="https://reactjs.org/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            React.js
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://reactjs.org/docs/hooks-intro.html"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            React Hooks
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://reactjs.org/docs/context.html"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Context API
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Local Storage
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Javascript
+          </a>
+        </li>
+        <li>
+          <a
+            href="http://es6-features.org"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            ES6
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://firebase.google.com/docs"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Firebase
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            HTML5
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.w3.org/TR/selectors-3/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            CSS3
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://jestjs.io/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Jest
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://testing-library.com/docs/react-testing-library/intro/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            React Testing Library 
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <span
+        data-testid="sourceCode"
+      >
+        Source Code:
+      </span>
+       
+      <ul
+        data-testid="source"
+      >
+        <li>
+          <a
+            href="https://github.com/lojito/tic-tac-toe"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            https://github.com/lojito/tic-tac-toe
+          </a>
+        </li>
+      </ul>
+    </div>
+    <span
+      data-testid="otherGames"
+    >
+      Other projects:
+    </span>
+    <ul
+      data-testid="games"
+    >
+      <li>
+        <a
+          href="https://github.com/lojito/puzzle"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Puzzle (Angular)
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://github.com/lojito/matching-pairs"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Matching pairs (Vue.js)
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://github.com/lojito/python-tic-tac-toe"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Tic-tac-toe (Python)
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://github.com/lojito/django-tictactoe"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Tic-tac-toe 4x4 (Django)
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://github.com/lojito/c_champions_league"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          UEFA Champions League (C)
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://github.com/lojito/assembly-bubble-sort"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Bubble sort sorting algorithm (Assembly)
+        </a>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;

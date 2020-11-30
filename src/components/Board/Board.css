@@ -1,0 +1,25 @@
+.board button{
+  width: 33%;
+  border: 1px solid black;
+  display: inline-block;
+  background-size: 100% 100%;
+}
+
+.board button:after{
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.board button:not([disabled]){
+  cursor: pointer;
+}
+
+.win{
+  animation: win 1s 3;
+}    
+
+@keyframes win{
+  from{opacity: 1}
+  to{opacity: 0.5}
+}

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Level component renders the Level component correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="level"
+    data-testid="level"
+  >
+    <span
+      title="How much thinking the computer does before playing."
+    >
+      Level?
+    </span>
+    <select
+      data-testid="select"
+    >
+      <option
+        data-testid="select-option"
+        value="1"
+      >
+           Easy
+      </option>
+      <option
+        data-testid="select-option"
+        value="3"
+      >
+         Normal
+      </option>
+      <option
+        data-testid="select-option"
+        value="2"
+      >
+           Hard
+      </option>
+    </select>
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,12 @@
+.level{
+  display: inline-block;
+  width: 45%;  
+}
+
+.level select{
+  margin-left: 2%;
+}
+
+.level span{
+  cursor: default;
+}
